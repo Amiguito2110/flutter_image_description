@@ -1,0 +1,91 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.build/
+
+# Android Studio related
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android build folders
+/build/
+
+# Generated files by Flutter
+**/build/
+
+# iOS build folders (Xcode generated files)
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Flutter/GeneratedPluginRegistrant.swift
+
+# macOS build (Flutter generated)
+macos/Flutter/ephemeral/
+
+# Windows build (Flutter generated)
+windows/flutter/ephemeral/
+
+# Linux build (Flutter generated)
+linux/flutter/ephemeral/
+
+# Firebase configuration
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Signing key (JKS, keystore, etc.)
+*.jks
+*.keystore
+*.key
+*.pem
+*.p12
+android/key.properties
+
+# Flutter launcher icons cache
+**/Assets.xcassets/AppIcon.appiconset/**/icon_*.png
+
+# Flutter related plugins and cache files
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# Flutter .gradle files
+.gradle/
+
+# Temporary or log files
+*.lock
+*.tmp
+*.swp
+
+# Coverage
+coverage/
+
+# Other unwanted files
+.env
+*.iml
